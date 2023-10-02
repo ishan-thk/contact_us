@@ -1,0 +1,101 @@
+@charset "UTF-8";
+.outerBox {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	width: 800px;
+	margin: 100px auto;
+	height: max-content;
+}
+
+.side {
+	display: flex;
+	margin: 0 auto;
+	justify-content: right;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 80px;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+}
+
+h3 {
+	margin-right: 20px;
+}
+
+p {
+	margin: 0%;
+}
+
+.innerBox1 {
+	background-color: gainsboro;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	padding-bottom: 60px;
+}
+
+.innerBox2 {
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+.submit {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	margin-top: 20px;
+	padding-top: 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+.butn {
+	padding: 13px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: darkgray;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 0 auto;
+}
+
+.area {
+	display: flex;
+	width: 100%;
+	padding: 10px;
+}
+
+.login {
+	font-size: 15px;
+}
+
+.txt {
+	font-size: 20px;
+}
+
+.pqr {
+	height: 130px;
+	padding: 40px;	
+}
+
+.red {
+	color: red;
+}
+
+form {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+
