@@ -36,7 +36,7 @@
 			<h1><span class="blue">Request Submitted Successfully</span></h1>
 		</div>
 		<div class="innerBox2">
-			<form action="contact_us.html" method="post">
+			<form action="contact_us.jsp" method="post">
 				<div class="submit">
 					<button class="butn" type="submit">Go Back</button>
 				</div>

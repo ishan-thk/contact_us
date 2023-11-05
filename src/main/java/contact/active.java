@@ -1,4 +1,4 @@
-package io.mountblue;
+package contact;
 
 import java.sql.*;
 
@@ -22,7 +22,6 @@ public class active extends HttpServlet{
 			Connection con = DriverManager.getConnection(url,username,password);
 			PreparedStatement ps = con.prepareStatement("update requests set status='active' where id=?");
 			ps.setInt(1, Integer.parseInt(req.getParameter("id")));
-			
 			ps.executeUpdate();
 			RequestDispatcher rd = req.getRequestDispatcher("/archRequests.jsp");
 	        rd.forward(req, res);

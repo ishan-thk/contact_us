@@ -13,7 +13,7 @@
 			
 		</div>
 		<div class="innerBox2">
-			<form action="contactUs.jsp" method="post">
+			<form action="reqSubmitted.jsp" method="post">
 				<div class="innerBox3">
 					<h3>Full Name <span class="red">*</span></h3>
 				</div>

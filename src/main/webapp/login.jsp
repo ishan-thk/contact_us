@@ -26,7 +26,7 @@
 					<button class="butn" type="submit"><span class="login">Login</span></button>
 				</div>
 			</form>
-			<form action="contact_us.html" method="post">
+			<form action="contact_us.jsp" method="post">
 				<div class="submit2">
 					<button class="butn" type="submit"><span class="back">Go Back</span></button>
 				</div>

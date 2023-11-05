@@ -22,15 +22,12 @@
 		ResultSet rs = st.executeQuery(sql);
 		rs.next();
 		
-		String user1 = ""+request.getParameter("user");
-		String pass1 = ""+request.getParameter("pass");
+		String user1 = request.getParameter("user");
+		String pass1 = request.getParameter("pass");
 		
-		String user2 = ""+rs.getString("username");
-		String pass2 = ""+rs.getString("password");
-		
-		//System.out.println(user1+" "+user2+" "+pass1+" "+pass2+" "+user1.equals(user2)+" "+pass1.equals(pass2));
-		
-		
+		String user2 = rs.getString("username");
+		String pass2 = rs.getString("password");
+				
 		if(user1.equals(user2) && pass1.equals(pass2)) {
 	%>
 	<%@ include file="requests.jsp" %>
